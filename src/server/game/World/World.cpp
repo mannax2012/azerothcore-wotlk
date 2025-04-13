@@ -833,12 +833,12 @@ void World::LoadConfigSettings(bool reload)
     }
 
     _int_configs[CONFIG_GUILD_BANK_INITIAL_TABS] = sConfigMgr->GetOption<int32>("Guild.BankInitialTabs", 0);
-    _int_configs[CONFIG_GUILD_BANK_TAB_COST_0] = sConfigMgr->GetOption<int32>("Guild.BankTabCost0", 1000000);
-    _int_configs[CONFIG_GUILD_BANK_TAB_COST_1] = sConfigMgr->GetOption<int32>("Guild.BankTabCost1", 2500000);
-    _int_configs[CONFIG_GUILD_BANK_TAB_COST_2] = sConfigMgr->GetOption<int32>("Guild.BankTabCost2", 5000000);
-    _int_configs[CONFIG_GUILD_BANK_TAB_COST_3] = sConfigMgr->GetOption<int32>("Guild.BankTabCost3", 10000000);
-    _int_configs[CONFIG_GUILD_BANK_TAB_COST_4] = sConfigMgr->GetOption<int32>("Guild.BankTabCost4", 25000000);
-    _int_configs[CONFIG_GUILD_BANK_TAB_COST_5] = sConfigMgr->GetOption<int32>("Guild.BankTabCost5", 50000000);
+    _int_configs[CONFIG_GUILD_BANK_TAB_COST_0] = sConfigMgr->GetOption<int32>("Guild.BankTabCost0", 100000);
+    _int_configs[CONFIG_GUILD_BANK_TAB_COST_1] = sConfigMgr->GetOption<int32>("Guild.BankTabCost1", 250000);
+    _int_configs[CONFIG_GUILD_BANK_TAB_COST_2] = sConfigMgr->GetOption<int32>("Guild.BankTabCost2", 500000);
+    _int_configs[CONFIG_GUILD_BANK_TAB_COST_3] = sConfigMgr->GetOption<int32>("Guild.BankTabCost3", 1000000);
+    _int_configs[CONFIG_GUILD_BANK_TAB_COST_4] = sConfigMgr->GetOption<int32>("Guild.BankTabCost4", 5000000);
+    _int_configs[CONFIG_GUILD_BANK_TAB_COST_5] = sConfigMgr->GetOption<int32>("Guild.BankTabCost5", 10000000);
 
     _bool_configs[CONFIG_DETECT_POS_COLLISION] = sConfigMgr->GetOption<bool>("DetectPosCollision", true);
 

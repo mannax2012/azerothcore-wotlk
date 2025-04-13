@@ -94,6 +94,7 @@ inline uint32 _GetGuildBankTabPrice(uint8 tabId)
 {
     switch (tabId)
     {
+        /*
         case 0:
             return sWorld->getIntConfig(CONFIG_GUILD_BANK_TAB_COST_0);
         case 1:
@@ -106,6 +107,19 @@ inline uint32 _GetGuildBankTabPrice(uint8 tabId)
             return sWorld->getIntConfig(CONFIG_GUILD_BANK_TAB_COST_4);
         case 5:
             return sWorld->getIntConfig(CONFIG_GUILD_BANK_TAB_COST_5);
+        */
+    case 0:
+        return 100000;
+    case 1:
+        return 250000;
+    case 2:
+        return 500000;
+    case 3:
+        return 1000000;
+    case 4:
+        return 5000000;
+    case 5:
+        return 10000000;
         default:
             return 0;
     }

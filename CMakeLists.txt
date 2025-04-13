@@ -17,6 +17,9 @@ message(STATUS "CMake version: ${CMAKE_VERSION}")
 
 # CMake policies (can not be handled elsewhere)
 cmake_policy(SET CMP0005 NEW)
+cmake_policy(SET CMP0156 NEW)
+cmake_policy(SET CMP0179 NEW)
+cmake_policy(SET CMP0181 NEW)
 
 if (POLICY CMP0153)
   cmake_policy(SET CMP0153 OLD)
